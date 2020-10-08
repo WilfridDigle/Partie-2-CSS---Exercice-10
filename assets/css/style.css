@@ -1,21 +1,22 @@
 #contener {
     display: flex;
     flex-wrap: wrap;
+    height: 150px;
 }
 #bloc1 {
     background-color: #2ecc71;
     width: 83%;
-    height: 30px;
+    height: calc(100% /5);
 }
 #bloc2 {
     background-color: #2980b9;
     width: 17%;
-    height: 30px;
+    height: calc(100% /5);
 }
 #bloc3 {
     background-color: #e74c3c;
     width: 34%;
-    height: 90px;
+    height: 60%;
 }
 #contener2 {
     display: flex;
